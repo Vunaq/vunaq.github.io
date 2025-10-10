@@ -25,7 +25,7 @@ export default function Home() {
               {/* Main logo */}
               <div className="relative w-[320px] md:w-[480px] h-[90px] md:h-[140px]">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/sample-1760089435826.png"
+                  src="/logo.png"
                   alt="Vunaq Logo"
                   fill
                   className="object-contain filter brightness-0 invert"
