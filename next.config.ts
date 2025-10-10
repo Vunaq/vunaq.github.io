@@ -23,6 +23,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    useLightningcss: false,
+  },
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
